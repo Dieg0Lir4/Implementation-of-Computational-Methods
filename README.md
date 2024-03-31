@@ -1,7 +1,12 @@
 # Implementation-of-Computational-Methods
 
 ## Description:
-The language I chose was the set of words: chaumas, chaumurky, cherem, chouhada, cielago from the Chalkobsa language
+The language I chose was the set of words from the Chalkobsa language: 
+* chaumas 
+* chaumurky
+* cherem
+* chouhada
+* cielago
 
 "Chalkobsa" is a fictional language created by Frank Herbert, with a focus on emotional expression over the transmission of specific meanings. In the context of the Dune universe, "Chakobsa" is a secret language used by the Fremen, the inhabitants of the planet Arrakis. This language allows them to covertly communicate and coordinate during battles and other dangerous situations.
 
