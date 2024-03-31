@@ -13,7 +13,7 @@ The language I chose was the set of words from the Chalkobsa language:
 ## Models:
 I chose to do a DFA since a DFA only needs one go to determine whether a string is accepted or not. Furthermore, in a DFA, for each state and each input, there is exactly one transition to another state. This means that there is no ambiguity in how an input string is processed, making it easier to identify specific words. And DFAs are simpler to implement and understand than Non-Deterministic Finite Automata (NFA). Each state in a DFA has a clear and unique transition for each possible input
 
-### Aqui va la imagen
+![](https://github.com/Dieg0Lir4/Implementation-of-Computational-Methods/blob/main/automata.png)
 
 The previous automaton can be represented with the next regular expression
 
