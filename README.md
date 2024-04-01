@@ -64,7 +64,7 @@ Make sure "evidencia1_test_cases.pl" is in the same directory as "evidencia1_2.p
 
 ## Analysis
 
-#### Time complexity
+### Time complexity
 
 ```
 word(Input) :- 
