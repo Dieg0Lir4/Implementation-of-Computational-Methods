@@ -53,6 +53,9 @@ word(Input) :-
     string_chars(Input, Characters),
     process(Characters, 0).
 
+word() :- 
+    test().
+
 % Base case:
 process([], ActualState) :-
     acceptable(ActualState).
