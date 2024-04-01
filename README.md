@@ -21,7 +21,7 @@ alphabets ∑={c, h, a, u, m, s, r, k, y, e, o, d, i, l, g}
 
 The previous automaton can be represented with the next regular expression
 
-RE: c(h(aum(as|urky)|erem|ouhada)|ielago)
+RE: ^c(h(aum(as|urky)|erem|ouhada)|ielago)$
 
 
 
