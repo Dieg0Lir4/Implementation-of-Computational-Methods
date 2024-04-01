@@ -23,7 +23,15 @@ RE: c(h(aum(as|urky)|erem|ouhada)|ielago)
 
 ## Implementation:
 
+For the implementation of my analysis of certain words of Chakobsa, I decided to use the structure shown in the representation of my automata that can be seen in the image called "automata.png"
 
+The finished automaton is in the file "evidencia1_2.pl" to be able to use my automaton you will have to use a prolog interpreter.
+
+To check if a word belongs to the list of previously established words, use the following format:
+
+word(THE_WORD_YOU_WANT_TO_CHECK).
+
+Prolog will return true or false, depending on whether the given word is in the list
 
 
 ## Bibliography
