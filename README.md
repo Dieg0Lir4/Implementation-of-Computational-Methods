@@ -33,7 +33,7 @@ To use the automata use this format:
 
 To check if a word belongs to the list of previously established words, use the following format:
 
-word(THE_WORD_YOU_WANT_TO_CHECK).
+word(the-word-you-want-to-check).
 
 Prolog will return true or false, depending on whether the given word is in the list
 
