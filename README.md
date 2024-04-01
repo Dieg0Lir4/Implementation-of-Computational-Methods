@@ -64,6 +64,35 @@ Make sure "evidencia1_test_cases.pl" is in the same directory as "evidencia1_2.p
 
 ## Analysis
 
+#### Time complexity
+
+```
+word(Input) :- 
+    string_chars(Input, Characters),
+    process(Characters, 0).
+```
+The function string_chars is built in prolog, it needs to go through the entire length of the string to convert it to a list of characters, making it of O(n) complexity.
+
+The function process do two main actions:
+
+```
+% Recursive case:
+process([Character|Rest], ActualState) :-
+    move(ActualState, NextState, Character),
+    write(ActualState), write(' -> '), write(NextState), write(' '), write(Character), nl,
+    !,
+    process(Rest, NextState).
+```
+
+ONE: Call the fact move() to determine the next state of the automata. The time complexity of this operation depends on how many facts it has to check, then this operation has a time complexity of O(m), where m is the number of facts for move(). 
+
+TWO: Calls itself recursively to process the rest of the character list. Since process() is called once for each character in the list, this operation has a time complexity of O(n).
+
+Therefore the time complexity of the code is O(n*m) and since it has 27 facts for move() the final time complexity is O(27n)
+
+
+
+
 
 
 ## Bibliography
@@ -72,5 +101,6 @@ Make sure "evidencia1_test_cases.pl" is in the same directory as "evidencia1_2.p
 * Wiki, C. T. D. (n.d.). Chakobsa. Dune Wiki. https://dune-fandom-com.translate.goog/wiki/Chakobsa?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=sc
 * colaboradores de Wikipedia. (2023, August 16). Chakobsa (idioma ficticio). Wikipedia, La Enciclopedia Libre. https://es.wikipedia.org/wiki/Chakobsa_(idioma_ficticio)
 * SWI-Prólogo --string_chars/2. (n.d.). https://www.swi-prolog.org/pldoc/man?predicate=string_chars/2
+* Adam J. Stewart and Zaid Qureshi Prolog (2023, April 30) Documentation Release 1.0.0 https://www.nationalgeographic.es/animales/abeja
 
 
