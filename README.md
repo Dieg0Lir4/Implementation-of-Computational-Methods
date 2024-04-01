@@ -111,5 +111,6 @@ Therefore, this solution is efficient because the number of move() facts defined
 * colaboradores de Wikipedia. (2023, August 16). Chakobsa (idioma ficticio). Wikipedia, La Enciclopedia Libre. https://es.wikipedia.org/wiki/Chakobsa_(idioma_ficticio)
 * SWI-Prólogo --string_chars/2. (n.d.). https://www.swi-prolog.org/pldoc/man?predicate=string_chars/2
 * Adam J. Stewart and Zaid Qureshi Prolog (2023, April 30) Documentation Release 1.0.0 https://www.nationalgeographic.es/animales/abeja
+* math2me. (2017). Demostrar una fórmula por INDUCCIÓN MATEMÁTICA │ ejercicio 1 [Video]. In YouTube. https://www.youtube.com/watch?v=orhBEEKe9Ws
 
 
