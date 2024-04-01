@@ -59,6 +59,10 @@ test().
 Make sure "evidencia1_test_cases.pl" is in the same directory as "evidencia1_2.pl"
 
 
+## Analysis
+
+
+
 ## Bibliography
 
 * Wiki, C. T. D. (n.d.). Chakobsa. Dune Wiki. https://dune.fandom.com/es/wiki/Chakobsa
