@@ -54,11 +54,11 @@ test(ONE_OF_THE_OPTIONS_BELOW).
 
 Options:
 
-*testOne
-+testTwo
-*testThree
-*testFour
-*testFive
+* testOne
+* testTwo
+* testThree
+* testFour
+* testFive
 
 
 ## Bibliography
