@@ -27,6 +27,10 @@ For the implementation of my analysis of certain words of Chakobsa, I decided to
 
 The finished automaton is in the file "evidencia1_2.pl" to be able to use my automaton you will have to use a prolog interpreter.
 
+To use the automata use this format:
+
+["rute-to-the-file"].
+
 To check if a word belongs to the list of previously established words, use the following format:
 
 word(THE_WORD_YOU_WANT_TO_CHECK).
@@ -48,17 +52,11 @@ EXAMPLES:
 
 You can find the test cases in the file "evidencia1_test_cases.pl"
 
-To use it, just enter the following format
+To use it, just enter the following format:
 
-test(ONE_OF_THE_OPTIONS_BELOW).
+test().
 
-Options:
-
-* testOne
-* testTwo
-* testThree
-* testFour
-* testFive
+Make sure "evidencia1_test_cases.pl" is in the same directory as "evidencia1_2.pl"
 
 
 ## Bibliography
