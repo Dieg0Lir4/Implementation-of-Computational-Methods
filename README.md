@@ -99,7 +99,7 @@ As demonstrated in the following image:
 
 
 
-Therefore, this solution is efficient if the number of move() facts defined and the length of the input string is small.
+Therefore, this solution is efficient because the number of move() facts defined is small and the the average length of the input string is small. 
 
 
 
