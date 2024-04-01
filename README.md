@@ -71,7 +71,7 @@ word(Input) :-
     string_chars(Input, Characters),
     process(Characters, 0).
 ```
-The function string_chars is built in prolog, it needs to go through the entire length of the string to convert it to a list of characters, making it of O(n) complexity.
+The function string_chars is built in prolog, it needs to go through the entire length of the string to convert it to a list of characters, making it of O(n) complexity. Where n is equal to the length of the string
 
 The function process do two main actions:
 
