@@ -33,6 +33,33 @@ word(THE_WORD_YOU_WANT_TO_CHECK).
 
 Prolog will return true or false, depending on whether the given word is in the list
 
+EXAMPLES:
+
+* word(cielago) -> true
+* word(cielagos) ->false
+* word(chaumas) -> true
+* word(cHAUMAS) -> false
+* word(hola) -> false
+* word(pikachu) -> false
+* word(cherem) -> true
+
+
+## Test
+
+You can find the test cases in the file "evidencia1_test_cases.pl"
+
+To use it, just enter the following format
+
+test(ONE_OF_THE_OPTIONS_BELOW).
+
+Options:
+
+testOne
+testTwo
+testThree
+testFour
+testFive
+
 
 ## Bibliography
 
