@@ -91,6 +91,15 @@ TWO: Calls itself recursively to process the rest of the character list. Since p
 Therefore the time complexity of the code is O(n*m) and since it has 27 facts for move() the final time complexity is O(27n)
 
 
+### Efficient for the problem
+
+This solution is efficient for the problem, since whenever the list of characters is greater than or equal to one, then the complexity will always be the one established above O(27n). 
+
+As demonstrated in the following image:
+
+
+
+Therefore, this solution is efficient if the number of move() facts defined and the length of the input string is small.
 
 
 
