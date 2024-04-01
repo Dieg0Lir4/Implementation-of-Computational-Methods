@@ -101,6 +101,24 @@ As demonstrated in the following image:
 
 Therefore, this solution is efficient because the number of move() facts defined is small and the the average length of the input string is small. 
 
+### Comparation
+
+The first way that occurred to me to detect if it is a Chalkobsa word was the following:
+
+```
+word(chaumas).
+word(chaumurky).
+word(cherem).
+word(chouhada).
+word(cielago).
+
+find_word(Input) :-
+    word(Input),
+    write('Word found: '), write(Input), nl.
+```
+But this way an automaton that passes different states depending on the characters is not created, so it was discarded
+
+Another way to do this by
 
 
 
@@ -112,5 +130,6 @@ Therefore, this solution is efficient because the number of move() facts defined
 * SWI-Prólogo --string_chars/2. (n.d.). https://www.swi-prolog.org/pldoc/man?predicate=string_chars/2
 * Adam J. Stewart and Zaid Qureshi Prolog (2023, April 30) Documentation Release 1.0.0 https://www.nationalgeographic.es/animales/abeja
 * math2me. (2017). Demostrar una fórmula por INDUCCIÓN MATEMÁTICA │ ejercicio 1 [Video]. In YouTube. https://www.youtube.com/watch?v=orhBEEKe9Ws
+* «Big O notation» o como obtener mayor eficiencia en tus algoritmos. (2018, June 24). Coding Backside. https://codingbackside.wordpress.com/2018/06/24/big-o-notation/
 
 
