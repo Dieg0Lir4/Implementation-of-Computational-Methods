@@ -97,7 +97,7 @@ This solution is efficient for the problem, since whenever the list of character
 
 As demonstrated in the following image:
 
-
+![](https://github.com/Dieg0Lir4/Implementation-of-Computational-Methods/blob/main/Induction.png)
 
 Therefore, this solution is efficient because the number of move() facts defined is small and the the average length of the input string is small. 
 
