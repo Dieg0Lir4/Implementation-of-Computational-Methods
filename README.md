@@ -48,13 +48,16 @@ EXAMPLES:
 * word(cherem) -> true
 
 
+Note: writing word() without a word will run the test cases.
+
+
 ## Test
 
 You can find the test cases in the file "evidencia1_test_cases.pl"
 
 To use it, just enter the following format:
 
-test().
+test() or word().
 
 Make sure "evidencia1_test_cases.pl" is in the same directory as "evidencia1_2.pl"
 
