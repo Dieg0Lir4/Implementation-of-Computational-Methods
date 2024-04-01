@@ -10,12 +10,14 @@ The language I chose was the set of words from the Chalkobsa language:
 
 "Chalkobsa" is a fictional language created by Frank Herbert, with a focus on emotional expression over the transmission of specific meanings. In the context of the Dune universe, "Chakobsa" is a secret language used by the Fremen, the inhabitants of the planet Arrakis. This language allows them to covertly communicate and coordinate during battles and other dangerous situations.
 
-The modeling technique for this solution I choose was Deterministic Finite Automata, since as explained by GeeksforGeeks, a Deterministic Finite Automaton (DFA) is suitable for representing systems where, for each input symbol, there exists only one possible transition to a next state. This is exactly in the analysis of the Chakobsa language, where each input symbol (character) leads to a unique state transition. (GfG, 2023)
+The modeling technique for this solution I choose was Deterministic Finite Automata, since as explained by GeeksforGeeks, a Deterministic Finite Automaton (DFA) is suitable for representing systems where, for each input symbol, there exists only one possible transition to a next state. This is exactly what I need for the analysis of the Chakobsa language, where each input symbol (character) leads to a unique state transition. (GfG, 2023)
 
 ## Models:
 I chose to do a DFA since a DFA only needs one go to determine whether a string is accepted or not. Furthermore, in a DFA, for each state and each input, there is exactly one transition to another state. This means that there is no ambiguity in how an input string is processed, making it easier to identify specific words. And DFAs are simpler to implement and understand than Non-Deterministic Finite Automata (NFA). Each state in a DFA has a clear and unique transition for each possible input
 
 ![](https://github.com/Dieg0Lir4/Implementation-of-Computational-Methods/blob/main/automata.png)
+
+alphabets ∑={0, 1}  
 
 The previous automaton can be represented with the next regular expression
 
