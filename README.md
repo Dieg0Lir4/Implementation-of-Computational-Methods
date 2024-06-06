@@ -17,6 +17,9 @@ I chose to do a DFA since a DFA only needs one go to determine whether a string 
 
 ![](https://github.com/Dieg0Lir4/Implementation-of-Computational-Methods/blob/main/automata.png)
 
+In this diagram you can see all the states de DFA can take, the incial and the end state. Also what is the condition to move between states.
+Take for example 
+
 alphabets ∑={c, h, a, u, m, s, r, k, y, e, o, d, i, l, g}  
 
 The previous automaton can be represented with the next regular expression
