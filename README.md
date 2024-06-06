@@ -146,7 +146,7 @@ but since prolog does not have certain operators to make it easier to work with 
 
 Finally there was a faster way to implement the solution. 
 
-If we remember the complexity is O(27n), this 27 comes from having to consult the 27 rules established in my code. In order to reduce this number we can use another data structure to make the search faster, but again prolog does not have an easy way to input other data structures. (As a note for future evidence I will use a language that I understand better)
+If we remember the complexity is O(27n), this 27 comes from having to consult the 27 rules established in my code. In order to reduce this number we can use another data structure to make the search faster, but again prolog does not have an easy way to input other data structures.
 
 We can use the following image to choose another data structure:
 
@@ -154,7 +154,9 @@ We can use the following image to choose another data structure:
 ![](https://github.com/Dieg0Lir4/Implementation-of-Computational-Methods/blob/main/big-o-cheat-sheet-poster.png)
 
 
-If we use a binary tree we can reduce the complexity from O(27n) to O(nlog(n)) and if we use a hash table we can make it O(n)
+If we use a binary tree we can reduce the complexity from O(27n) to O(nlog(n)).
+
+But since using binary tree in prolog is way off of what I can do in prolog, and haven discard the other way in prolog to do this evidence, the best solution within my capacity was chosen
 
 
 
