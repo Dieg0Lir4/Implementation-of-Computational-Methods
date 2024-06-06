@@ -18,7 +18,7 @@ I chose to do a DFA since a DFA only needs one go to determine whether a string 
 ![](https://github.com/Dieg0Lir4/Implementation-of-Computational-Methods/blob/main/automata.png)
 
 In this diagram you can see all the states de DFA can take, the incial and the end state. Also what is the condition to move between states.
-Take for example 
+Take for example the state q10, in needs a "u" to move to the state q19, other input will not make it change states.
 
 alphabets ∑={c, h, a, u, m, s, r, k, y, e, o, d, i, l, g}  
 
